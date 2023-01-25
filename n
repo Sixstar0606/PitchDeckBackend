@@ -1,0 +1,249 @@
+.icon2 {
+    width: 20px;
+    vertical-align: -5px;
+}
+
+.textWraped {
+    padding-bottom: 27px;
+    margin-top: 88px;
+}
+
+.buttonsWraper {
+    display: flex;
+    column-gap: 40px;
+    margin-top: 20px;
+}
+
+.bg{
+    background-color: rgb(254, 254, 254);
+    padding: 10px;
+    padding-top: 55px;
+    border-radius: 5px;
+    padding-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.textinput{
+z-index: 2;
+  position: relative;
+  margin-top: 280px;
+  padding-bottom: 200px;
+  
+    
+}
+
+
+
+.profileColumn {
+    width: 100%;
+    min-width: 370px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 27px;
+    background-color: #d6d6d6;
+    padding: 15px;
+    overflow-y: scroll;
+   max-height: 900px;
+   height: 900px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 15px 8px rgba(0, 0, 0, 0.239);
+    }
+
+    .position {
+        margin-left: 6px;
+        
+    }
+
+    .editor {
+      margin-top: 305px;
+    }
+
+.VidBox {
+  margin-top: 0px;
+}
+
+    .Edit {
+        margin-left: 50px;
+        background-color: rgb(33, 33, 164);
+        color: aliceblue;
+        padding: 5px;
+        margin-top: -6px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+.NameBox {
+    display: flex;
+    margin-bottom: 15px;
+  
+}
+
+.texteditor{
+  background-color: rgb(255, 255, 255);
+  margin-top: 300px;
+}
+.ProNameBox {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 105px;
+}
+
+.intro {
+  margin-bottom: 20px;
+flex: 1;
+text-align: center;
+margin-top: -10px;
+max-height: 500px;
+margin-bottom: 0;
+font-weight: bold;
+height: 30px;
+
+ border-radius: 5px;
+  margin-left: 20px;
+
+}
+
+
+
+
+    .profilePic {
+        width: 95px;
+        height: 95px;
+        border-radius: 200px;
+        margin-top: 125px;
+        margin-left: 20px;
+        position: absolute;
+        object-fit: cover;
+        z-index: 3;
+    }
+
+    .profileContainer {
+        padding-bottom: 150px;
+        background-color: #6969dd;
+        display: flex;
+        flex-direction: column;
+        margin-top: -39px;
+        margin-left: 30px;
+       
+
+    }
+    .innerProColumns {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+       
+       }
+
+    .selectors{
+        padding: 5px;
+      }
+      .selector {
+        color: rgb(44, 33, 33);
+        padding: 5px;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: blue;
+      }
+    .Invest {
+        margin-left: 50px;
+        background-color: rgb(33, 164, 57);
+        color: aliceblue;
+        padding: 5px;
+        margin-top: -6px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+.VideoPlayer{
+    z-index: 2 !important;
+}
+.video {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 90%;
+    margin-left: 22px;
+    height: 280px;
+
+
+}
+
+.videoD {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 90%;
+    margin-left: 22px;
+    height: 280px;
+    margin-top: 10px;
+
+
+}
+
+.Upload {
+    width: 80px;
+  }
+
+  .uploadWrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(250, 243, 243, 0.466);
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+    position: relative;
+    z-index: 3;
+    
+
+  }
+
+  .uploadWrap:hover{
+    background-color: rgba(138, 32, 32, 0.88);
+    transition: .3s ease-in-out;
+  }
+
+  .profilePosts {
+    margin-top: 10px;
+  }
+
+
+  .BannerContainer{
+    background-color: rgb(125, 150, 173);
+ 
+   
+    z-index: 2;
+margin-left: -10px;
+    width:100%;
+     padding: 50px 10px;
+     margin-top: -58px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+  }
+ .posts {
+    overflow: hidden;
+    overflow-y: scroll;
+
+    height: 380px;
+    
+       
+
+ }
+
+ ::-webkit-scrollbar{
+    width:.7em;
+    border-radius: 100vw;
+    margin-block: 1em;
+ }
+
+ ::-webkit-scrollbar-track{
+   background:rgba(186, 186, 186, 0)
+ }
+
+  ::-webkit-scrollbar-thumb {
+    background:rgb(112, 160, 170);
+    border-radius: 100vw;
+  }
